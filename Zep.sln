@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zep.Listener", "Zep.Listener\Zep.Listener.csproj", "{8668B0EC-EAFD-4367-B64D-32528F44211A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zep.Client", "Zep.Client\Zep.Client.csproj", "{EA302C37-8669-4F52-BD4C-4835CB7C827A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zep.User", "Zep.User\Zep.User.csproj", "{CA5F456F-9A96-40D5-933F-C9DCE3FDF52C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C752F3E3-0CE2-4685-9C30-437B2FEB0628}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8668B0EC-EAFD-4367-B64D-32528F44211A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8668B0EC-EAFD-4367-B64D-32528F44211A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8668B0EC-EAFD-4367-B64D-32528F44211A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8668B0EC-EAFD-4367-B64D-32528F44211A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA302C37-8669-4F52-BD4C-4835CB7C827A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA302C37-8669-4F52-BD4C-4835CB7C827A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA302C37-8669-4F52-BD4C-4835CB7C827A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA302C37-8669-4F52-BD4C-4835CB7C827A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5F456F-9A96-40D5-933F-C9DCE3FDF52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5F456F-9A96-40D5-933F-C9DCE3FDF52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5F456F-9A96-40D5-933F-C9DCE3FDF52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5F456F-9A96-40D5-933F-C9DCE3FDF52C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8668B0EC-EAFD-4367-B64D-32528F44211A} = {C752F3E3-0CE2-4685-9C30-437B2FEB0628}
+		{EA302C37-8669-4F52-BD4C-4835CB7C827A} = {C752F3E3-0CE2-4685-9C30-437B2FEB0628}
+		{CA5F456F-9A96-40D5-933F-C9DCE3FDF52C} = {C752F3E3-0CE2-4685-9C30-437B2FEB0628}
+	EndGlobalSection
+EndGlobal
