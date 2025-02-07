@@ -4,8 +4,6 @@
 *.nupkg
 *.snupkg
 *.suo
-*.user
-*.userosscache
 *.sln.docstates
 [Pp]ackages/
 [Dd]ebug/

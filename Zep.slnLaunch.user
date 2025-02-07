@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Zep.Listener\\Zep.Listener.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Zep.Client\\Zep.Client.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Zep.User\\Zep.User.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
